@@ -1,7 +1,5 @@
 html, body {
-    margin: 0; 
-    height: 100%; 
-    overflow: hidden
+    background-color: #000f1f;
 }
 
 /* Home Page ----------- */
@@ -13,6 +11,8 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%; 
+    overflow: hidden;
 }
 
 /* NavBar ----------- */
@@ -58,6 +58,16 @@ button.btn.my-2.my-sm-0 {
     height: 27px;
     background-color: #03162b;
     color: #fafafa;
+}
+
+
+.shop-container {
+    height: 70vh;
+    background: url('media/images/shop-one.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* iPhone 5 ----------- */
