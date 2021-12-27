@@ -1,0 +1,86 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+
+/* Home Page ----------- */
+
+.home-container {
+    height: 105vh;
+    background: url('media/images/home-cover.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NavBar ----------- */
+
+nav.navbar.navbar-expand-lg {
+    background-color: #031a34 !important;
+    height: 40px;
+}
+
+.navbar-brand {
+    color: #fafafa;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 30px;
+}
+
+a.nav-link {
+    color: #fafafa !important;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+}
+
+.company-text {
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+    color: #fafafa;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+button.btn.my-2.my-sm-0 {
+    color: #fafafa;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 16px;
+    border: 1px solid #fafafa;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.form-inline .form-control {
+    margin-left: 10px;
+    height: 27px;
+    background-color: #03162b;
+    color: #fafafa;
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) 
+and (max-device-height: 568px) {
+    .company-text {
+        font-size: 30px;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) 
+and (max-device-height: 667px) {
+    .company-text {
+        font-size: 38px;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) 
+and (max-device-height: 736px) {
+    .company-text {
+        font-size: 45px;
+    }
+}
+    
