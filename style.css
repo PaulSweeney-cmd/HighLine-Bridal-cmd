@@ -20,7 +20,7 @@ body::-webkit-scrollbar-thumb {
 /* Home Page ----------- */
 
 .home-container {
-    height: 105vh;
+    height: 90vh;
     background: url('media/images/home-cover.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
@@ -29,13 +29,54 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
 }
 
-.float-child {
+.float-child-one {
     width: 50%;
     float: left;
-    border: 2px solid red;
     margin-top: 20px;
     width: 50%;
     margin-left: 0;
+}
+
+.float-child-two {
+    background: url('media/images/taylor.jpg') no-repeat center center;
+    background-size: cover;
+    height: 35vh;
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.float-child-three {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 0;
+}
+
+.float-child-four {
+    background: url('media/images/suits.jpg') no-repeat center center;
+    background-size: cover;
+    height: 35vh;
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+h1.container-header.text-center {
+    font-family: 'Mea Culpa', cursive;
+    font-size: 70px;
+    color: #fafafa;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+
+p.container-text {
+    color: #fafafa;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* NavBar ----------- */
@@ -47,7 +88,7 @@ nav.navbar.navbar-expand-lg {
 
 .navbar-brand {
     color: #fafafa;
-    font-family: 'Mea Culpa', cursive;
+    font-family: 'Abhaya Libre', serif;
     font-size: 26px;
 }
 
