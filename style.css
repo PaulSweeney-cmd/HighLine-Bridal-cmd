@@ -2,6 +2,21 @@ html, body {
     background-color: #000f1f;
 }
 
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 3px;         
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #fafafa;
+    border-radius: 20px;
+}
+
 /* Home Page ----------- */
 
 .home-container {
@@ -11,8 +26,16 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; 
     overflow: hidden;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    border: 2px solid red;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 0;
 }
 
 /* NavBar ----------- */
@@ -24,8 +47,8 @@ nav.navbar.navbar-expand-lg {
 
 .navbar-brand {
     color: #fafafa;
-    font-family: 'Abhaya Libre', serif;
-    font-size: 30px;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 26px;
 }
 
 a.nav-link {
@@ -35,9 +58,6 @@ a.nav-link {
 }
 
 .company-text {
-    position: fixed;
-    bottom: 5px;
-    right: 30px;
     color: #fafafa;
     font-family: 'Mea Culpa', cursive;
     font-size: 70px;
